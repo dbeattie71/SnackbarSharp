@@ -2,7 +2,7 @@
 <package >
 	<metadata>
 		<id>SnackbarSharp.dll</id>
-			<version>1.0.1</version>
+			<version>1.0.2</version>
 			<authors>Derek Beattie</authors>
 			<owners>Derek Beattie</owners>
 			<licenseUrl>https://github.com/dbeattie71/SnackbarSharp/blob/master/LICENSE</licenseUrl>
@@ -18,7 +18,7 @@
 			</dependencies>	
 	</metadata>
 	<files>
-		<file src="SnackbarSharp\bin\Release\SnackbarSharp.dll" target="lib\net40" />
-		<file src="SnackbarSharp\bin\Release\SnackbarSharp.pdb" target="lib\net40" />
+		<file src="SnackbarSharp\bin\Release\SnackbarSharp.dll" target="lib\MonoAndroid" />
+		<file src="SnackbarSharp\bin\Release\SnackbarSharp.pdb" target="lib\MonoAndroid" />
 	</files>
 </package>
