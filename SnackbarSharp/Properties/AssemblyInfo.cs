@@ -2,8 +2,8 @@
 using System.Resources;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyVersion("1.0.1.0")]
-[assembly: AssemblyFileVersion("1.0.1.0")]
+[assembly: AssemblyVersion("1.0.1")]
+[assembly: AssemblyFileVersion("1.0.1")]
 [assembly: AssemblyTitle("Snackbar.NET")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyCopyright("Copyright ©  2015 Enjin PTE LTD")]

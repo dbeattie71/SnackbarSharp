@@ -1,1 +1,1 @@
-nuget push SnackbarSharp.dll.1.0.0.nupkg
+nuget push SnackbarSharp.dll.1.0.1.nupkg
