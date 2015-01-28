@@ -1,0 +1,3 @@
+﻿<Properties StartupItem="SnackbarSharp/SnackbarSharp.csproj">
+  <MonoDevelop.Ide.ItemProperties.SnackbarSharp MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>

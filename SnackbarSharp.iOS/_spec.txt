@@ -1,0 +1,9 @@
+﻿//spec:
+//Single-line snackbar height: 48dp tall
+//Multi-line snackbar height: 80dp
+//Minimum width: 288dp
+//Maximum width:  568dp
+//2dp rounded corner
+//Text: Roboto Regular 14sp
+//Action button: Roboto Medium 14sp, all-caps text
+//Default background fill: #323232 100%
