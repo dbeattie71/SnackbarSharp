@@ -360,7 +360,7 @@ namespace SnackbarSharp.iOS
             UIView.Transition(this, 0.3, UIViewAnimationOptions.CurveEaseIn | UIViewAnimationOptions.LayoutSubviews, () =>
                 {
                     var frame = Frame;
-                    Frame = new CGRect(frame.X, frame.Y -= 42, frame.Width, frame.Height);
+                    Frame = new CGRect(frame.X, frame.Y -= _type.GetMaxHeight(), frame.Width, frame.Height);
 
                 }, () =>
                 {
@@ -479,7 +479,7 @@ namespace SnackbarSharp.iOS
 //                parent.RemoveView(this);
             var parent = Superview;
             if (parent != null)
-                parent.RemoveFromSuperview();
+                RemoveFromSuperview();
 //
             if (_eventListener != null && _isShowing)
                 _eventListener.OnDismissed(this);
