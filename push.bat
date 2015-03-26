@@ -1,1 +1,1 @@
-nuget push SnackbarSharp.dll.1.0.2.nupkg
+nuget push SnackbarSharp.dll.1.0.3-alpha.nupkg <APIKEY>
