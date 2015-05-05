@@ -1,8 +1,13 @@
 Change Log
 ==========
-Version 1.0.9.2 (02-05-2015)
+Version 1.0.5
 -------------
-* Update to 22.1.1.1 NuGets
+* Removed unused support libs
+* fix namespace
+
+Version 1.0.4
+-------------
+* Nuget nuspec fixes
 
 Version 1.0.3
 -------------
