@@ -1,5 +1,10 @@
 Change Log
 ==========
+
+Version 1.0.6
+-------------
+* More nuget noob mistakes, wasn't packaging correct .dll
+
 Version 1.0.5
 -------------
 * Removed unused support libs

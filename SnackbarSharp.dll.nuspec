@@ -2,7 +2,8 @@
 <package >
 	<metadata>
 		<id>SnackbarSharp.dll</id>
-			<version>1.0.5</version>
+			<version>1.0.6</version>
+      <title>Snackbars for Xamarin.Android</title>
 			<authors>Derek Beattie</authors>
 			<owners>Derek Beattie</owners>
 			<licenseUrl>https://github.com/dbeattie71/SnackbarSharp/blob/master/LICENSE</licenseUrl>
@@ -10,7 +11,7 @@
 			<requireLicenseAcceptance>false</requireLicenseAcceptance>
 			<description>A C#.NET port of https://github.com/nispok/snackbar.  Library that implements Snackbars from Google's Material Design documentation.</description>
     <releaseNotes>
-      See latest changes at:  https://github.com/jamesmontemagno/PagerSlidingTabStrip-for-Xamarin.Android/blob/master/CHANGELOG.md
+      See latest changes at:  https://github.com/dbeattie71/SnackbarSharp/blob/master/CHANGELOG.md
     </releaseNotes>
 			<copyright>Copyright 2015</copyright>
 			<tags>snackbarsharp snackbar xamarin monodroid</tags>
@@ -20,7 +21,7 @@
 			</dependencies>	
 	</metadata>
 	<files>
-		<file src="SnackbarSharp\bin\Release\SnackbarSharp.dll" target="lib\MonoAndroid" />
-		<file src="SnackbarSharp\bin\Release\SnackbarSharp.pdb" target="lib\MonoAndroid" />
+		<file src="lib\DBeattie.SnackbarSharp.dll" target="lib\MonoAndroid" />
+		<file src="lib\DBeattie.SnackbarSharp.pdb" target="lib\MonoAndroid" />
 	</files>
 </package>
