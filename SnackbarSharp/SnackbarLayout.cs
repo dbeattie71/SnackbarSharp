@@ -4,7 +4,7 @@ using Android.Runtime;
 using Android.Util;
 using Android.Widget;
 
-namespace SnackbarSharp
+namespace com.dbeattie
 {
     public class SnackbarLayout : LinearLayout
     {

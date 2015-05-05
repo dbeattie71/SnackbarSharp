@@ -5,6 +5,13 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnackbarSharp", "SnackbarSharp\SnackbarSharp.csproj", "{C4AF18C2-834B-427C-B60F-87BDCA778254}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnackbarSharp.iOS", "SnackbarSharp.iOS\SnackbarSharp.iOS.csproj", "{DF49F374-1181-404C-8D5C-DD6EE4FF3749}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9C123AF1-1FAF-4BF6-B4C1-583066AD308C}"
+	ProjectSection(SolutionItems) = preProject
+		SnackbarSharp.dll.nuspec = SnackbarSharp.dll.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{C4AF18C2-834B-427C-B60F-87BDCA778254}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4AF18C2-834B-427C-B60F-87BDCA778254}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4AF18C2-834B-427C-B60F-87BDCA778254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF49F374-1181-404C-8D5C-DD6EE4FF3749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF49F374-1181-404C-8D5C-DD6EE4FF3749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF49F374-1181-404C-8D5C-DD6EE4FF3749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF49F374-1181-404C-8D5C-DD6EE4FF3749}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

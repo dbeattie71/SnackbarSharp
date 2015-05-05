@@ -2,19 +2,21 @@
 <package >
 	<metadata>
 		<id>SnackbarSharp.dll</id>
-			<version>1.0.3-alpha</version>
+			<version>1.0.5</version>
 			<authors>Derek Beattie</authors>
 			<owners>Derek Beattie</owners>
 			<licenseUrl>https://github.com/dbeattie71/SnackbarSharp/blob/master/LICENSE</licenseUrl>
 			<projectUrl>https://github.com/dbeattie71/SnackbarSharp</projectUrl>    
 			<requireLicenseAcceptance>false</requireLicenseAcceptance>
-			<description>A C#.NET port of https://github.com/nispok/snackbar.  Library that implements Snackbars from Google's Material Design documentation.</description>    
+			<description>A C#.NET port of https://github.com/nispok/snackbar.  Library that implements Snackbars from Google's Material Design documentation.</description>
+    <releaseNotes>
+      See latest changes at:  https://github.com/jamesmontemagno/PagerSlidingTabStrip-for-Xamarin.Android/blob/master/CHANGELOG.md
+    </releaseNotes>
 			<copyright>Copyright 2015</copyright>
 			<tags>snackbarsharp snackbar xamarin monodroid</tags>
-			<dependencies>
-				<dependency id="Xamarin.Android.Support.v4" version="21.0.3" />
-				<dependency id="Xamarin.Android.Support.v7.AppCompat" version="21.0.3" />
-				<dependency id="Xamarin.Android.Support.v7.RecyclerView" version="21.0.3" />
+			<dependencies>				
+				<dependency id="Xamarin.Android.Support.v7.AppCompat" version="22.1.1.1" />
+				<dependency id="Xamarin.Android.Support.v7.RecyclerView" version="22.1.1.1" />
 			</dependencies>	
 	</metadata>
 	<files>

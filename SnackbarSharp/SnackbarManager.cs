@@ -1,7 +1,7 @@
 using System;
 using Android.App;
 
-namespace SnackbarSharp
+namespace com.dbeattie
 {
     public class SnackbarManager
     {

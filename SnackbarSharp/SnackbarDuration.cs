@@ -1,4 +1,4 @@
-namespace SnackbarSharp
+namespace com.dbeattie
 {
     public class SnackbarDuration
     {

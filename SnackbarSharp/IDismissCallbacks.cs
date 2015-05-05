@@ -1,7 +1,7 @@
 using System;
 using Android.Views;
 
-namespace SnackbarSharp
+namespace com.dbeattie
 {
     public interface IDismissCallbacks
     {

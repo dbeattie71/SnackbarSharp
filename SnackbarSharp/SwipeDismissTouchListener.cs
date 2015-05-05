@@ -2,7 +2,7 @@ using System;
 using Android.Animation;
 using Android.Views;
 
-namespace SnackbarSharp
+namespace com.dbeattie
 {
     public class SwipeDismissTouchListener : AnimatorListenerAdapter, View.IOnTouchListener
     {
