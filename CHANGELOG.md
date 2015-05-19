@@ -1,6 +1,10 @@
 Change Log
 ==========
 
+Version 1.0.7
+-------------
+* Fix wrong height for view
+
 Version 1.0.6
 -------------
 * More nuget noob mistakes, wasn't packaging correct .dll

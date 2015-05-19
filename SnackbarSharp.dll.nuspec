@@ -2,7 +2,7 @@
 <package >
 	<metadata>
 		<id>SnackbarSharp.dll</id>
-			<version>1.0.6</version>
+			<version>1.0.7</version>
       <title>Snackbars for Xamarin.Android</title>
 			<authors>Derek Beattie</authors>
 			<owners>Derek Beattie</owners>

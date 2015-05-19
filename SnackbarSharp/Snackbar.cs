@@ -178,7 +178,7 @@ namespace com.dbeattie
 			if (res.GetBoolean(Resource.Boolean.sb__is_phone))
 			{
 				layout.SetMinimumHeight(DpToPx(_type.GetMinHeight(), scale));
-				layout.SetMaxHeight(DpToPx(_type.GetMinHeight(), scale));
+				layout.SetMaxHeight(DpToPx(_type.GetMaxHeight(), scale));
 				layout.SetBackgroundColor(_color);
 				layoutParams = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MatchParent,
 					ViewGroup.LayoutParams.WrapContent);
